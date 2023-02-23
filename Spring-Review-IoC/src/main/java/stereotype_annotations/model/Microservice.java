@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class Microservice {
 
     public void getTotalHours(){
-        System.out.println("Total Hours: " + 30 );
+        System.out.println("Total Hours: " + 50 );
     }
 
 }
