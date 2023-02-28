@@ -16,4 +16,10 @@ public class HomeController {
         return "welcome.html";
     }
 
+    @RequestMapping()
+    public String home3(){
+        return "welcome.html";
+    }
+
+
 }
