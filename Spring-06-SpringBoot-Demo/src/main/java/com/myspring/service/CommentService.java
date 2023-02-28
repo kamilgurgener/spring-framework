@@ -1,9 +1,11 @@
-package bean_practice.service;
+package com.myspring.service;
 
-import bean_practice.model.Comment;
-import bean_practice.proxy.CommentNotificationProxy;
-import bean_practice.repository.CommentRepository;
+
+import com.myspring.model.Comment;
+import com.myspring.proxy.CommentNotificationProxy;
+import com.myspring.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
