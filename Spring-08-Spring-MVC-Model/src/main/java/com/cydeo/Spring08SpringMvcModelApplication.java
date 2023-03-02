@@ -1,4 +1,4 @@
-package com.myspring.spring08springmvcmodel;
+package com.cydeo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Spring08SpringMvcModelApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(Spring08SpringMvcModelApplication.class, args);
-	}
+    public static void main(String[] args) {
+
+        SpringApplication.run(Spring08SpringMvcModelApplication.class, args);
+    }
 
 }

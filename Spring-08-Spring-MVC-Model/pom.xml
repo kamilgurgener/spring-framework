@@ -5,10 +5,10 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.9</version>
+		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.myspring</groupId>
+	<groupId>com.cydeo</groupId>
 	<artifactId>Spring-08-Spring-MVC-Model</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring-08-Spring-MVC-Model</name>
