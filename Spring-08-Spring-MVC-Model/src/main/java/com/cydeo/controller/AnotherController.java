@@ -7,22 +7,21 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Controller
-@RequestMapping("/mentor")
-public class MentorController {
+@RequestMapping("/another")
+public class AnotherController {
 
-    @RequestMapping ("/list")  //localhost:8080/mentor/list
+    @RequestMapping("/list")   //localhost:8080/another/list
     public String homePage(Model model){
 
-        List <Mentor> mentor= new ArrayList<>();
+        List<Mentor> mentor= new ArrayList<>();
         mentor.add(new Mentor("Mike", "Smith", 45, Gender.MALE));
         mentor.add(new Mentor("Tom","Hanks",65, Gender.MALE));
         mentor.add(new Mentor("Ammy","Bryan",25, Gender.FEMALE));
 
-       model.addAttribute("mentor", mentor);
+        model.addAttribute("mentor", mentor);
 
         return "mentor/mentor";
 
