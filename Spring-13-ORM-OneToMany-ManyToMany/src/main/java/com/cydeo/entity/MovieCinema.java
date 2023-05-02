@@ -5,7 +5,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.ManyToMany;
+import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
 import java.time.LocalDateTime;
 
@@ -14,12 +14,17 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class MovieCinema extends BaseEntity{
 
-    @Column(columnDefinition = "DATE")
+    @Column(columnDefinition = "TIMESTAMP")
     private LocalDateTime dateTime;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Movie movie;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Cinema cinema;
+
+
+
+
+
 }

@@ -22,5 +22,4 @@ public class Location extends BaseEntity{
 
 
 
-
 }
